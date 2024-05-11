@@ -3,6 +3,10 @@
   "displayName": "TW Class Finder",
   "description": "This powerful tool seamlessly integrates into your development environment, offering real-time class suggestions and completions for Tailwind CSS, directly within your HTML, JS, JSX, TS or TSX files.Just type tw: followed by your desired CSS property, and watch as a curated list of corresponding Tailwind classes appears.",
   "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jankojjs/twclassfinder"
+  },
   "engines": {
     "vscode": "^1.81.0"
   },
