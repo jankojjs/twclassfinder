@@ -1,0 +1,46 @@
+{
+  "name": "twclassfinder",
+  "displayName": "TW Class Finder",
+  "description": "This powerful tool seamlessly integrates into your development environment, offering real-time class suggestions and completions for Tailwind CSS, directly within your HTML, JS, JSX, TS or TSX files.Just type tw: followed by your desired CSS property, and watch as a curated list of corresponding Tailwind classes appears.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.81.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "activationEvents": [
+    "onLanguage:html",
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onCommand:editor.action.triggerSuggest"
+  ],  
+  "main": "./extension.js",
+  "contributes": {},
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.89.0",
+    "@types/mocha": "^10.0.6",
+    "@types/node": "18.x",
+    "eslint": "^8.57.0",
+    "typescript": "^5.4.5",
+    "@vscode/test-cli": "^0.0.9",
+    "@vscode/test-electron": "^2.3.9"
+  },
+  "maintainers": [
+    {
+      "name": "Janko Stanic",
+      "email": "jjsolutions034@gmail.com"
+    }
+  ],
+  "keywords": [],
+  "author": "Janko Stanic",
+  "publisher": "JankoStanic",
+  "license": "MIT"
+}
