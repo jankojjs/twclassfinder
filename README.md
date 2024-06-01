@@ -1,65 +1,38 @@
-# twclasses README
+# TW Class Finder Extension
 
-This is the README for your extension "twclasses". After writing up a brief description, we recommend including the following sections.
+This powerful tool seamlessly integrates into your development environment, offering real-time class suggestions and completions for Tailwind CSS, directly within your HTML, JS, JSX, TS, or TSX files. Just type `tw:` followed by your desired CSS property, and watch as a curated list of corresponding Tailwind classes appears.
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- When you want to add a Tailwind class but either forgot the name or value, just type `tw:css-property` and press space to see a list of suggestions.
+- Streamline your workflow by reducing the need to frequently refer to the Tailwind documentation.
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation
 
-\!\[feature X\]\(images/feature-x.png\)
+1. Launch Visual Studio Code.
+2. Go to the Extensions view by clicking on the square icon in the sidebar or by pressing `Ctrl+Shift+X`.
+3. Search for "twclassfinder" in the Extensions view search box.
+4. Click on the Install button.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+## Usage
 
-## Requirements
+1. Open an HTML, JavaScript, or TypeScript React file in Visual Studio Code.
+2. Type `tw:` followed by the name of the CSS property in the editor while you are inside `class=""` or `className=""`.
+3. Press `Space` to get a list of suggestions.
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Contributing
 
-## Extension Settings
+Contributions are welcome! Please fork this repository and create a pull request with your changes. For major modifications, please open an issue first to discuss the changes.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+## License
 
-For example:
+This project is licensed under the MIT License. See the [LICENSE](./LICENSE) file for details.
 
-This extension contributes the following settings:
+## Acknowledgements
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- Thanks to the Visual Studio Code team for providing a powerful extension development platform.
+- This extension was inspired by the need to avoid frequent look-ups in the Tailwind documentation.
 
-## Known Issues
+## Contact
 
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
----
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+For support, feedback, or inquiries, please contact [Janko Stanic](mailto:jjsolutions034@gmail.com).

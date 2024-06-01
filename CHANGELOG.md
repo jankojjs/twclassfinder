@@ -1,9 +1,11 @@
-# Change Log
+# Changelog
 
-All notable changes to the "twclasses" extension will be documented in this file.
+All notable changes to the "twclassfinder" will be documented in this file.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [1.0.0] - 2024-01-01
 
-## [Unreleased]
+### Added
 
-- Initial release
+- Initial release of the twclassfinder extension.
+- Supports generating tailwind classes in JavaScript, Typescript or HTML files.
+- Adds prefix to inserted classes if there is tailwind.config file in root of the project and prefix is defined.
